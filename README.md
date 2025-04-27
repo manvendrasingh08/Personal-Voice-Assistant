@@ -1,10 +1,6 @@
-Of course! Here's a clean **README.md** you can use for your project:
+ Python Virtual Assistant
 
----
-
-# Jarvis 2.0 - Python Virtual Assistant
-
-Jarvis 2.0 is a voice-activated virtual assistant developed in Python that can perform various tasks such as opening applications, telling jokes, fetching weather, taking notes, playing music, capturing photos, downloading videos, and much more.
+A voice-activated virtual assistant developed in Python that can perform various tasks such as opening applications, telling jokes, fetching weather, taking notes, playing music, capturing photos, downloading videos, and much more.
 
 ---
 
@@ -54,7 +50,7 @@ Also, you may need:
 ### File Structure Example
 
 ```
-Jarvis-2.0/
+Jarvis/
 ├── Calendar/               # Calendar executable
 ├── Calculator/              # Calculator executable
 ├── Recordingapp/            # Voice Recorder executable
@@ -65,11 +61,11 @@ Jarvis-2.0/
 ├── Documents/               # Saved notes
 ├── Customization/
 │   └── jarvis.ico           # Notification icon
-├── jarvis.py                # Main Jarvis script
+├── jarvis.py                # Main script
 └── README.md                # This file
 ```
 
-Make sure paths inside the script (like `C:\Users\joels\Desktop\Jarvis v2.0\Documents`) match your system.
+Make sure paths inside the script (like `C:\Users\joels\Desktop\Jarvis\Documents`) match your system.
 
 ---
 
