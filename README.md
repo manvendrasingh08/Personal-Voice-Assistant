@@ -50,7 +50,7 @@ Also, you may need:
 ### File Structure Example
 
 ```
-Jarvis/
+VoiceAssistant/
 ├── Calendar/               # Calendar executable
 ├── Calculator/              # Calculator executable
 ├── Recordingapp/            # Voice Recorder executable
@@ -60,12 +60,12 @@ Jarvis/
 ├── images/                  # Folder to save captured images
 ├── Documents/               # Saved notes
 ├── Customization/
-│   └── jarvis.ico           # Notification icon
-├── jarvis.py                # Main script
+│   └── VoiceAssistant.ico           # Notification icon
+├── VoiceAssistant.py                # Main script
 └── README.md                # This file
 ```
 
-Make sure paths inside the script (like `C:\Users\joels\Desktop\Jarvis\Documents`) match your system.
+Make sure paths inside the script (like `C:\Users\joels\Desktop\VoiceAssistant\Documents`) match your system.
 
 ---
 
@@ -74,7 +74,7 @@ Make sure paths inside the script (like `C:\Users\joels\Desktop\Jarvis\Documents
 Simply run:
 
 ```bash
-python jarvis.py
+python VoiceAssistant.py
 ```
 
 Make sure your microphone is connected and functional, as the assistant heavily relies on voice commands.
